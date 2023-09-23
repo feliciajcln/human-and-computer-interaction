@@ -1,0 +1,287 @@
+/* Settingan untuk semua bagian di dalam body */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Settingan untuk menu (bagian atas website) */
+.menu{
+    background-color: #373b3e;
+	overflow: hidden;    
+}
+
+/* Settingan untuk menu (bagian atas website) bagian login */
+.login{
+    padding: 14px 16px;
+	margin-top: 5px;
+    margin-right: 80px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+/* Settingan untuk menu (bagian atas website) bagian homepage */
+.homepage{
+	padding: 14px 16px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+/* Settingan untuk menu (bagian atas website) bagian bahasa*/
+.language{
+    float: right;
+    overflow: hidden;
+}
+
+/* Settingan untuk menu (bagian atas website) bagian bahasa */
+.language:hover .language-content{
+    display: block;
+}
+
+/* Settingan untuk menu (bagian atas website) bagian button bahasa */
+.language-button{
+    padding: 14px 16px;
+	margin: 0px;
+	font-family: inherit;
+	font-size: 14px;    
+	color: white;
+	border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+/* Settingan untuk menu (bagian atas website) bagian isi dari bahasa */
+.language-content{
+    min-width: 160px;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	display: none;
+    position: absolute;
+}
+
+/* Settingan untuk menu (bagian atas website) bagian isi dari bahasa */
+.language-content a{
+	padding: 12px 16px;
+	margin-right: 0px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    float: none;
+	display: block;   
+}
+
+/* Settingan untuk menu (bagian atas website) bagian isi dari bahasa */
+.language-content a:hover{
+    background-color: #ddd;
+}
+
+/* Settingan untuk banner (di bawah menu) */
+.banner{
+    text-align: center;
+}
+
+/* Settingan untuk banner (di bawah menu) */
+.banner h1{
+	top: 75px;
+	left: 430px;
+	letter-spacing: -1px;
+	position: absolute;
+}
+
+/* Settingan untuk banner (di bawah menu) */
+.banner p{
+	top: 125px;
+	left: 400px;   
+	letter-spacing: -1px;
+	position: absolute;	
+}
+
+/* Kotak untuk sign-up */
+.sign-up{
+    width: 40%;
+	padding: 20px;
+    margin: auto;
+	margin-top: 40px;
+    border-top: 3px solid #e96b2e;
+    border-right: 0px solid #eeeeee;
+    border-left: 0px solid #eeeeee;
+    border-bottom: 0px solid #eeeeee;
+    box-shadow: 0px 2px 8px #dddddd;
+	background-color: white;
+}
+
+/* Settingan untuk kotak input, select elements, dan textareas */
+input[type=email], input[type=password], select, textarea{
+    width: 90%; 
+    padding: 12px; 
+    margin-top: 10px; 
+    margin-bottom: 16px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Settingan untuk keterangan di bawah box country */
+.country-info1{
+	margin-top: -10px;
+	margin-left: 25px;
+	color: #ec8923; 
+	font-size: 12px;
+}
+
+/* Settingan untuk keterangan di bawah box country */
+.country-info2{
+	margin-top: -8px;
+	margin-left: 40px;
+	color: #ec8923; 
+	font-size: 12px;
+}
+
+/* Validation Text */
+.message-error{
+	margin-top: -10px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	font-size: 12px;
+	color: red;	
+}
+
+/* Ketentuan (kotak checkbox) */
+input[type=checkbox]{
+	margin-left: 25px;
+}
+
+/* Ketentuan (kotak checkbox) */
+input[type="checkbox"]:before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  font-size: 13px;
+  color: transparent;
+  background: white;
+  border: 1px solid #e96729;
+}
+
+/* Ketentuan (kotak checkbox) */
+input[type="checkbox"]:checked:before {
+  color: white;
+  background: #e96729;
+}
+
+/* Ketentuan */
+.terms1{
+	font-size: 13px;
+}
+
+/* Ketentuan untuk semua yang menggunakan tag a (untuk link)*/
+.terms1 a{
+	color: #e96729; 
+	text-decoration: none;
+}
+
+/* Ketentuan */
+.terms2{
+	margin-top: 0px;
+	margin-left: 45px;
+	font-size: 13px;
+}
+
+/* Ketentuan untuk semua yang menggunakan tag a (untuk link) */
+.terms2 a{
+	color: #e96729; 
+	text-decoration: none;
+}
+
+/* Settingan masuk */
+.sign-in{
+	font-size: 14px;
+	text-align: center;
+}
+
+/* Settingan masuk untuk semua yang menggunakan tag a (untuk link) */
+.sign-in a{
+	color: #e96729; 
+	text-decoration: none;
+}
+
+/* Settingan untuk mengatur isi dan bentuk dari button confirm */
+.button-confirm button{
+	width: 90%;
+	padding: 12px 20px;
+	margin-left: 25px;
+    color: white;
+    border: none;
+    background-color: #e96729;
+	cursor: pointer;
+}
+
+/* Untuk mengubah warna button ketika cursor diletakan pada button tersebut menggunakan hover */
+.button-confirm button:hover{
+	color: white;
+	background: #ab400e;
+}
+
+/* Settingan untuk paragraf di sebelah kanan kotak sign-up */
+.details{
+    position: absolute;
+    top: 245px;
+    right: 70px;
+}
+
+/* Settingan untuk paragraf di sebelah kanan kotak sign-up (judul paragraf) */
+.title{
+	font-size: 12px;
+}
+
+/* Settingan untuk paragraf di sebelah kanan kotak sign-up (isi paragraf) */
+.text{
+	margin-top: -5px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #73777a;
+}
+
+/* Settingan untuk paragraf di sebelah kanan kotak sign-up (isi paragraf - khusus) */
+.text1{
+	color: #e96729;
+}
+
+/* Settingan untuk bagian bawah dari suatu website */
+.footer{
+    background-color: #4b5054;
+	overflow: hidden;    
+}
+
+/* Settingan untuk bagian bawah dari suatu website */
+.footer-content{
+    padding: 14px 16px;
+	margin: 12px;
+	margin-left: 75px;
+	color: white;
+	text-align: left;
+    text-decoration: none;
+}
+
+/* Settingan untuk bagian bawah dari suatu website untuk semua yang menggunakan tag a (untuk link) */
+.footer-content a{
+    margin-right: 50px;
+	font-size: 12px;
+	color: #ffffff;
+    text-decoration: none;
+}
+
+/* Settingan untuk bagian bawah dari suatu website (kalimat) */
+.footer-content p{
+	font-size: 12px;
+	color: #b5b4b7;
+}

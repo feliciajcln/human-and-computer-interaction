@@ -1,0 +1,202 @@
+/* Kotak untuk sign-up */
+.sign-up {
+    width: 27%;
+    padding: 15px;
+	margin: auto;
+   	margin-top: 100px;
+	border: 1px solid blue;
+    background-color: white;
+	/*position: absolute;*/
+}
+
+/* Untuk kata daftar */
+.heading-1 { 
+    font-family: arial;
+	font-size: 25px;
+    font-weight: bold;
+    margin-top: -5px;
+	margin-left: 4px;
+}
+
+/* Untuk kalimat ini cepat dan mudah */
+.heading-2 {
+    font-family: arial;
+	font-size: 13px;
+	color: grey;
+    margin-top: -25px;
+	margin-left: 4px;
+}
+
+/* Border sign-up (garis) */
+.heading { 
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+/* Settingan kotak nama depan dan belakang agar sejajar */
+.name {
+    display: flex;
+}
+
+/* Kotak untuk input nama */
+.name input {
+    width: 157px;
+    padding: 8px;
+	margin: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+/* Kotak untuk input email */
+.email input {
+    width: 340px;
+    padding:8px;
+	margin: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee; 
+}
+
+/* Kotak untuk input password */
+.password input {
+    width: 340px;
+    padding:8px;
+	margin: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+/* Label nama untuk tanggal lahir dan jenis kelamin */
+.label-nama {
+	margin: 4px;
+	font-family: arial;
+	font-size: 12px;
+	color: grey;
+}
+
+/* Lambang tanda tanya di sebelah tanggal lahir dan jenis kelamin */
+.info {
+    width: 10px;
+    height: 10px;
+	font-family: arial;
+    font-size: 9px;
+	color: white;
+	text-align: center;
+	border-radius: 50%;
+	background-color: grey;
+    display: inline-block;
+}
+
+/* Settingan kotak pilihan tanggal lahir agar sejajar */
+.birthday-select {
+	display: flex;
+}
+
+/* Setting untuk kotak pilihan pada tanggal lahir */
+.birthday-date {
+	width: 150px;
+	padding: 5px;
+	margin: 5px;
+	font-family: arial;
+    font-size: 13px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	justify-content: space-between;
+}
+
+/* Settingan kotak pilihan jenis kelamin agar sejajar */
+.gender-select {
+    display: flex;
+}
+
+/*Untuk mengubah cursor pada saat memilih jenis kelamin */
+.gender-select input { 
+    cursor: pointer
+}
+
+/* Settingan kotak untuk pilihan perempuan pada jenis kelamin */
+.perempuan {
+	width: 155px;
+    padding: 7px;
+	margin: 5px;
+	font-family: arial;
+    font-size: 13px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Settingan kotak untuk pilihan laki-laki pada jenis kelamin */
+.laki-laki {
+	width: 135px;
+	padding: 7px;
+	margin: 5px;
+	font-family: arial;
+    font-size: 13px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Settingan kotak untuk pilihan khusus pada jenis kelamin */
+.khusus {
+	width: 130px;
+    padding: 7px;
+	margin: 5px;
+	font-family: arial;
+    font-size: 13px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ketentuan */
+.terms{
+	font-family: arial;
+	font-size: 10px;
+}
+
+/* Untuk semua yang menggunakan tag a (untuk link) */
+a{
+	text-decoration: none;
+}
+
+/* Settingan untuk mengatur ukuran dan letak button */
+.button-daftar { 
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Settingan untuk mengatur isi dan bentuk dari button daftar */
+.button-daftar button {
+    width: 100%;
+    padding: 5px;
+    font-family: arial;
+	font-size: 18px;
+    font-weight: bold;
+	color: white;
+    border: none;
+	border-radius: 5px;
+    background-color:#32cd32;
+	cursor: pointer; 
+}
+
+/* Untuk mengubah warna button ketika cursor diletakan pada button tersebut menggunakan hover */
+.button-daftar button:hover { 
+    color: white;
+	background: green;
+}
